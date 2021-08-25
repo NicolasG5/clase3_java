@@ -1,21 +1,21 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package classe3;
 
-/**
- *
- * @author Duoc
- */
+import clases.cliente;
+
 public class Classe3 {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+        cliente cli=new cliente();
+        cli.setRut("12365854-k");
+        cli.setNombre("juanito");
+        cli.setApellido("simio");
+        cli.setEdad(6);
+        System.out.println("Los datos del cliente son;"+cli.toString());
+        
+        
+        
     }
     
-}
+ }

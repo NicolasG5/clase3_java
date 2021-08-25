@@ -58,9 +58,19 @@ public class cliente {
 
     @Override
     public String toString() {
-        // (4) metodo toSt 
+        // (4) metodo toString --> regresa todos los atributos 
         return "cliente{" + "rut=" + rut + ", nombre=" + nombre + ", apellido=" + apellido + ", edad=" + edad + '}';
     }
-    
-    
+    // (5) metodos customer (personalizados)
+    public String ofrecercredito(){
+    if (edad>=18 && edad<=50) {
+        return "apta para credito";
+                
+            } else {
+        return " sin credito";
+    }
+        
+    }
+            
+ 
 }
